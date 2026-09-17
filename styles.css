@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.bg-gradient-emerald {
+    background: linear-gradient(135deg, #064e3b 0%, #047857 50%, #059669 100%);
+}
+
+.bg-emerald-hero {
+    background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 50%, #a7f3d0 100%);
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.active-feature-tab {
+    background-color: #059669 !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
